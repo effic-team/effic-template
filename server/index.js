@@ -7,11 +7,10 @@ let routers = [
     require("./users"),
 ]
 
-let res = router.install({
+module.exports = router.install({
     name: "用户端",
     router: routers,
     home: home,
 })
 
-module.exports = res
 

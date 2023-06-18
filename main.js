@@ -1,5 +1,5 @@
 let effic = require("effic")
-// 路游
+// 路游服务
 const server = require("./server");
 // 中间件
 const { useBefore, useAfter } = require("./middleware/index");
@@ -15,9 +15,6 @@ app.useSet(useBefore)
 app.use(server);
 // 后置中间件
 app.useSet(useAfter)
-
-
-
 
 app.listen(9090, () => {
   console.log("server is running");

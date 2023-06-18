@@ -5,7 +5,7 @@ exports.home = [{
     content: [
         {
             name: "开发环境",
-            text: "http://localhost:6060"
+            text: "http://localhost:9090"
         }
     ]
 },

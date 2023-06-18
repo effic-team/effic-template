@@ -1,9 +1,8 @@
-const { Router } = require("effic")
-const router = Router()
-const login = require("./router/login")
+const router = require("effic").Router()
+const demo = require("./router/demo")
 
 router.use("用户管理", "/admin/users", [
-    login
+    demo
 ])
 
 
