@@ -1,6 +1,7 @@
 const common = require("./common")
 
 module.exports = {
+
     // 是否开启文档
     doc: true,
     mount: ["config"],
